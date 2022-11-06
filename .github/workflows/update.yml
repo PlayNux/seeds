@@ -26,7 +26,7 @@ jobs:
     - name: Checkout metapackages
       uses: actions/checkout@v3
       with:
-        repository: elementary/metapackages
+        repository: PlayNux/metapackages
         path: metapackages
         token: "${{ secrets.GIT_USER_TOKEN }}"
         ref: jammy
