@@ -41,11 +41,11 @@ jobs:
         if git diff --quiet ; then
             echo "Everything is up-to-date, nothing to commit"
         else
-            git config --global user.email "builds@elementary.io"
-            git config --global user.name "elementaryBot"
+            git config --global user.email "brokenlens98gmail.com"
+            git config --global user.name "Playnux-bot"
             echo "Committing new changes"
             git add .
-            git commit -m "Automatic update via elementary seeds"
+            git commit -m "Automatic update via seeds"
             git push origin "$BRANCH"
             echo "Push complete"
         fi
